@@ -33,4 +33,4 @@ jobs:
           fi
         env:
           PYTHONPATH: src/
-          JUEJIN_SESSION_ID: ${{ secrets.JUEJIN_SESSION_ID }}
+          JUEJIN_SESSION_ID: ${{ secrets.JUEJIN_MAIN_SESSION_ID }}
