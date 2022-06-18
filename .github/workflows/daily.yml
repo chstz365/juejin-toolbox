@@ -30,4 +30,4 @@ jobs:
           python src/lottery/script.py
         env:
           PYTHONPATH: src/
-          JUEJIN_SESSION_ID: ${{ secrets.JUEJIN_SESSION_ID }}
+          JUEJIN_SESSION_ID: ${{ secrets.JUEJIN_NUM_SESSION_ID }}
