@@ -46,9 +46,9 @@ if __name__ == "__main__":
     from time import time
 
     from __init__ import session_id
-
+    print(888888)
     session = JuejinGameSession(session_id)
-
+    print(session)
     while True:
         data = session.fetch_level_data()
         start_time = time()
