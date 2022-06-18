@@ -41,12 +41,12 @@ def pprint_puzzle(puzzle: NumberPuzzle) -> None:
         print("|" + "|".join(_format_piece(row_item).center(max_cell_width) for row_item in row) + "|")
     print("+" + "+".join("-" * max_cell_width for _ in range(puzzle.WIDTH)) + "+")
 
-
+print(888888)
 if __name__ == "__main__":
     from time import time
 
     from __init__ import session_id
-    print(888888)
+    
     session = JuejinGameSession(session_id)
     print(session)
     while True:
